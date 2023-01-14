@@ -1,0 +1,115 @@
+/* ---------------
+header style 
+---------------- */
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.container{
+    padding: 0 25px;
+    max-width: 1440px;
+    margin: 0 25px;
+}
+/* nav style  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.porimary-font{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.container>ul{
+    display: flex;
+    list-style: none;   
+}
+.container>ul>li{
+    margin-right: 30px;
+}
+/*-------------------------
+    header section styles
+------------------------- */
+.container-alin{
+    text-align: center;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    margin-top: 100px;
+    color: #131313;
+}
+.sup-title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 30px 0;
+}
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background-color: rgb(255, 145, 0);
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 50px;
+}
+.container-alin>img{
+    height: 100%;
+    width: 100%;
+    max-width: 1440px;
+    max-height: 700px;
+}
+/* ----------------------
+    main content style 
+------------------------- */
+.top-section, .sections{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 25px;
+    margin-top: 70px;
+}
+.sections>img{
+    height: 100%;
+    width: 100%;
+    max-width: 332px;
+    max-height: 332px; 
+}
+.Features-contant-title{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+}
+.Features-contant{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 35px;
+}
+/* span style */
+ .fast-span{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+ }
+ .scend-span{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+ }
+ .last-span{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FF900E;
+ }
