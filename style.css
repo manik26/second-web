@@ -195,3 +195,25 @@ nav{
     padding: 30px 15px;
     border-radius: 10px;
  }
+/*-----------------
+    media query section 
+----------------- */
+
+@media screen and (max-width: 700px ) {
+    nav{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .top-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);  
+    }
+    .sections{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .icons{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}
