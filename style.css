@@ -1,6 +1,9 @@
 /* ---------------
 header style 
 ---------------- */
+body{
+    margin: 0;
+}
 header{
     background: rgba(255, 144, 14, 0.1);
     padding: 30px 15px;    
@@ -195,11 +198,48 @@ nav{
     padding: 30px 15px;
     border-radius: 10px;
  }
+ /* section exta style  */
+ 
+    .hello{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+    .box{
+            width: 200px ;
+            height: 200px;
+            background: #858585;
+            box-shadow: 0px 8px 58px#00f604;
+            border-radius: 5px;
+            padding: 30px;
+            color: #1900ff;
+            text-align: center;
+            border: 3px solid rgb(150, 249, 0);
+            transition: transform 2s ,width 2s, height 2s ;
+            
+        }
+        .font-size{
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .box>img{
+            width: 75px;
+            height: 75px;
+        }
+    .box:hover{
+            width: 300px;
+            height: 300px;
+            transform: rotate(180deg);
+        }
+
+    
+
 /*-----------------
     media query section 
 ----------------- */
 
-@media screen and (max-width: 700px ) {
+@media screen and (max-width: 590px ) {
     nav{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -215,5 +255,10 @@ nav{
     .icons{
         display: grid;
         grid-template-columns: repeat(1, 1fr); 
+    }
+    .hello{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
     }
 }
